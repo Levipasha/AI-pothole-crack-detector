@@ -7,7 +7,7 @@ from inference_sdk import InferenceHTTPClient
 import matplotlib.pyplot as plt
 
 # Set the new image path
-image_path = r"C:\Users\vamsh\Downloads\fwnewwork\fusion-wear1-master\pothole and crack finder.v1i.yolov8\test\images\test images for project\types-of-road-cracks.jpg"
+image_path = r"C:"#enter your image here with path 
 
 # Set up the client
 CLIENT = InferenceHTTPClient(
