@@ -130,7 +130,7 @@ for prediction in result.get('predictions', []):
     cv2.putText(original_image, f"{label} {confidence:.2f}", (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
 
 # Save the resulting image
-output_path = "C:/Users/vamsh/Downloads/fwnewwork/fusion-wear1-master/result_image.jpg"
+output_path = "C:"#enter the path where u want to save the image path
 cv2.imwrite(output_path, original_image)
 
 # Print detected count and classes
